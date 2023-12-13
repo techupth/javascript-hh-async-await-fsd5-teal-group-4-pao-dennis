@@ -17,4 +17,4 @@ function handleData(data) {
   console.log(data);
 }
 
-getJohnProfile().catch(handleData);
+getJohnProfile().then(handleData).catch(handleData);

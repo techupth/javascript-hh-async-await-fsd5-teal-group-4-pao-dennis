@@ -11,6 +11,7 @@ let getJohnProfile = async () => {
     );
   });
 };
+
 // Start coding here
 async function getJohnData() {
   try {

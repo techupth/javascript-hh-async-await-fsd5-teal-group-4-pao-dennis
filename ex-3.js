@@ -37,4 +37,8 @@ function displayData(data) {
   console.log(data);
 }
 
-getJohnProfile().then(displayData).then(getJohnOrders).then(displayData);
+getJohnProfile()
+  .then(displayData)
+  .then(getJohnOrders)
+  .then(displayData)
+  .catch(displayData);
